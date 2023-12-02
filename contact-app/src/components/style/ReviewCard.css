@@ -1,0 +1,59 @@
+.container .ReviewCard {
+    /* width: 100vw; */
+    
+    width: 500px;
+    min-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 50px; */
+    /* animation: slide 15s linear infinite; */
+    animation: scroll 13s linear infinite;
+
+  }
+
+  .container .ReviewCard {
+    /* width: 100vw; */
+    
+    width: 500px;
+    min-width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-left: 50px; */
+    /* animation: slide 15s linear infinite; */
+    animation: scroll 13s linear infinite;
+
+  }
+
+
+  /* #Reviewcardsscrollbar2:hover {
+    animation: scroll 13s linear infinite;
+    animation-direction: reverse;
+  }
+  #Reviewcardsscrollbar3:hover {
+    animation: scroll 13s linear infinite;
+  } */
+
+
+
+ .justify-between-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-center-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.Review-text {
+    font-weight: 700;
+}

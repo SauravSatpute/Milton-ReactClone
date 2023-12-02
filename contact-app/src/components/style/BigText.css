@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.midHeading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 4.7rem;
+    font-weight: 800;
+    width: 800px;
+    text-align: center;
+}
+
+.marginTopBottom-7px {
+    margin: 7px 0px;
+}

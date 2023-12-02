@@ -1,0 +1,44 @@
+.Card {
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.Card img {
+    width: 300px;
+
+}
+
+.padding-20px {
+    padding: 20px;
+}
+
+.marginLeftRight-20px {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.divBill span{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+ul  {
+    list-style: none;
+}
+
+.feature-list ul li {
+    list-style-position: inside;
+
+    /* margin-left: 10px; */
+}
+
+.feature-list ul li:before {
+    content: '✓';
+  }

@@ -1,0 +1,49 @@
+
+
+.monthly-annually-btn {
+    width: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.save30 {
+    position: absolute;
+    left: 350px;
+    display: flex;
+}
+
+.monthly-annually-btn button {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    padding: 12px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.PriceCardsSectionHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PriceCardsSection {
+    width: 70vw;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #FEFEFE;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.PriceCardsSection ul li {
+    list-style-position: inside;
+}

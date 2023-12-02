@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    max-width:100%;
+}
+
+.marginTopBottom-80px {
+    margin: 80px 0px;
+}
+
+.marginTopBottom-100px {
+    margin: 100px 0px;
+}
+
+
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-column-center-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.midHeading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 4.7rem;
+    font-weight: 800;
+    width: 800px;
+    text-align: center;
+}
+
+.marginTopBottom-7px {
+    margin: 7px 0px;
+}
+
+.marginTop-20px {
+    margin-top: 20px;
+}
+
+.width-550 {
+    width: 550px;
+}
+
+.coolAppText {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6F6B78;
+    font-weight: 500;
+}
+
+.getStartedBtn button{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    padding: 12px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.smallHeaderText {
+    color: #2E2E2E;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10px;
+}
+
+.width-150px-height-30px {
+    width: 150px;
+    height: 30px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.face1 {
+    position : absolute;
+    right: 0;
+    bottom: -10px;
+
+}
+
+.face2 {
+    position : absolute;
+    right: 25px;
+    bottom: -10px;
+
+}
+ 
+.face3 {
+    position : absolute;
+    right: 50px;
+    bottom: -10px;
+}
+
+
+.face4 {
+    position : absolute;
+    right: 75px;
+    bottom: -10px;
+}
+
+.face5 {
+    position : absolute;
+    right: 100px;
+    bottom: -10px;
+} 

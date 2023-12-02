@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    max-width:100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navBar {
+    width: 75vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+
+    color: #2E2E2E;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #2E2E2E;
+} 
+
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navLinks li{
+    list-style: none;
+    padding: 17px 21px
+}
+
+.logInGetStartedBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-size {
+    padding: 16px;
+    font-size: 15px;
+}
+
+.logInGetStartedBtns button{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    padding: 12px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+hr {
+    color: rgb(88, 82, 82);
+}
+
+
+#getStarted {
+    color: white;
+    background-color: #2E2E2E;
+}
