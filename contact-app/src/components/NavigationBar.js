@@ -6,17 +6,17 @@ function NavigationBar() {
   return (
     <div>
       <nav>
-        <div className="navBar">
+        <div className="navBar fixed-nav-bar" >
           <div className="logo nav-size">
             <a href="#"># Milton</a>
           </div>
           <div>
             <ul className="navLinks ">
-              <li className='nav-size'>Features</li>
-              <li className='nav-size'>Testimonial</li>
-              <li className='nav-size'>Pricing</li>
-              <li className='nav-size'>FAQs</li>
-              <li className='nav-size'>Blog</li>
+              <li className='nav-size'><a href=''>Features</a></li>
+              <li className='nav-size'><a href=''>Testimonial</a></li>
+              <li className='nav-size'><a href=''>Pricing</a></li>
+              <li className='nav-size'><a href=''>FAQs</a></li>
+              <li className='nav-size'><a href=''>Blog</a></li>
             </ul>
           </div>
           <div className="logInGetStartedBtns">

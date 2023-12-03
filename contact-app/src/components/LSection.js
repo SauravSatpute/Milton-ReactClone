@@ -2,14 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/LSection.css'
 import BoxText from './BoxText';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function LSection({image}) {
+    useEffect(()=> {
+        Aos.init({duration:500});
+    },[]);
+
     return (
-        <div className='marginTopBottom-80px'>
+        <div  className='marginTopBottom-80px' data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
             <div >
                 <div className='section-flex-row-center'>
-                    <div className='LeftSection'>
+                    <div className='LeftSection' data-aos="zoom-in-right">
                 <BoxText text="Seamless Scheduling" bgColor="#CCEAFD" />
 
                         <div className='ParaHeading'>

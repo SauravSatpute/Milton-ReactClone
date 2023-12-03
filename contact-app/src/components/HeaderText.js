@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './style/HeaderText.css'
 import BoxText from './BoxText';
 import BigText from './BigText';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 function HeaderText() {
+    // useEffect(()=> {
+    //     Aos.init({duration:1000});
+    // },[]);
+
     return (
-        <div className='headerDiv flex-center marginTopBottom-80px'>
+        <div data-aos="fade-up" className='headerDiv flex-center marginTopBottom-80px '>
             <div>
                 <BoxText text="An other way to manage time️ 💼" bgColor="#F1F2F4" />
             </div>
@@ -18,7 +26,7 @@ function HeaderText() {
                 <p>Here you should explain how cool your app is. Remember, focus on the benefits for your users, not on the features. </p>
             </div>
             <div className='getStartedBtn marginTop-20px'>
-                <button>
+                <button className='glow-on-hover'>
                     Get started, it's free
                 </button>
             </div>

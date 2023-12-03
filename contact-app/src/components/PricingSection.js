@@ -4,10 +4,16 @@ import './style/PricingSection.css'
 import BoxText from './BoxText';
 import BigText from './BigText';
 import PriceCard from './PriceCard';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 function PricingSection({ text, bgColor }) {
-
+    useEffect(()=> {
+        Aos.init({duration:500});
+    },[]);
+    
 
     return (
         <div>
@@ -15,7 +21,7 @@ function PricingSection({ text, bgColor }) {
                 <BoxText text="Pricing and plans 💰" bgColor="#F1F2F4" />
                 <BigText text="Find the best plan for your needs" />
             </div>
-            <div className='justify-center-div '>
+            <div className='justify-center-div ' ata-aos="fade-up">
                 <div className='monthly-annually-btn justify-center-div'>
                     <div className=' justify-center-div'>
                         <button id='monthly' >
@@ -31,8 +37,8 @@ function PricingSection({ text, bgColor }) {
                     </div>
                 </div>
             </div>
-            <div className='PriceCardsSectionHolder marginTopBottom-80px'>
-                <div className='PriceCardsSection'>
+            <div className='PriceCardsSectionHolder marginTopBottom-80px' >
+                <div className='PriceCardsSection' ata-aos="fade-up">
                     <PriceCard boxText="Free"/>
                     <PriceCard boxText="Starter"/>
                     <PriceCard boxText="Pro"/>

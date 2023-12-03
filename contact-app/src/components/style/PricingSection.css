@@ -7,6 +7,8 @@
     flex-direction: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 
 }
 
@@ -32,6 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .PriceCardsSection {
@@ -42,6 +46,8 @@
     background-color: #FEFEFE;
     margin-left: 20px;
     margin-right: 20px;
+    flex-wrap: wrap;
+
 }
 
 .PriceCardsSection ul li {

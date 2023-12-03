@@ -19,6 +19,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 
@@ -58,4 +60,33 @@
     font-size: 1.3rem;
     font-weight: 400;
     color: #6F6B78;
+}
+
+@media screen and (max-width: 600px) {
+    
+
+    .section-flex-row-center {
+        /* width: 60vw; */
+        width: 80vw;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  
+  }
+
+  @media screen and (max-width:1400px) {
+    .section-flex-row-center {
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
 }

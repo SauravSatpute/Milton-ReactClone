@@ -7,6 +7,8 @@ footer {
     justify-content: center;
     align-items: flex-start;
     background-color: #F1F2F4;
+    flex-wrap: wrap;
+
 }
 
 .footerDiv {
@@ -15,6 +17,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+
     /* align-items: center; */
 }
 
@@ -26,6 +30,8 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .footerDiv ul {
@@ -33,6 +39,8 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .footerDiv li {
@@ -61,6 +69,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .footerDiv li a:hover {
@@ -78,6 +88,8 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 }
 
 .FromTheBlog {
@@ -92,4 +104,6 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+
 }

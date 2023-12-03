@@ -14,12 +14,14 @@ nav {
     flex-wrap: wrap;
 }
 
+
+
 .navBar {
     width: 75vw;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 
@@ -28,11 +30,16 @@ nav {
 
     color: #2E2E2E;
 }
+.fixed-nav-bar { position: fixed; top: 0; left: 0; z-index: 9999;width: 100%; background-color: #FEF9F6;}
 
 .logo a {
     text-decoration: none;
     color: #2E2E2E;
 } 
+
+.logo a:hover {
+    text-decoration: underline;
+}
 
 
 .navLinks {
@@ -45,7 +52,10 @@ nav {
 
 .navLinks li{
     list-style: none;
-    padding: 17px 21px
+    padding: 17px 21px;
+    color: #2E2E2E;
+
+
 }
 
 .logInGetStartedBtns {
@@ -79,4 +89,17 @@ hr {
 #getStarted {
     color: white;
     background-color: #2E2E2E;
+}
+
+ul li a {
+    /* color: black; */
+    color: #2E2E2E;
+
+    text-decoration: none;
+    
+}
+
+ul li a:hover {
+
+    text-decoration: underline;
 }
